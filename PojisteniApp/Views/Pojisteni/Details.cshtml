@@ -1,0 +1,30 @@
+﻿@model PojisteniApp.Models.Pojisteni
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div>
+    <h4>Detail pojištění pro @Html.DisplayFor(model => model.Type)</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+</div>
+<div class="text-center">
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Upravit</a> 
+
+</div>
+<p>    <a asp-action="Index">Zpět na seznam</a></p>

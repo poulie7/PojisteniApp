@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PojisteniApp
+build_property.RootNamespace = PojisteniApp
+build_property.ProjectDir = C:\Users\plexm\Desktop\záloha\PojisteniApp\PojisteniApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\plexm\Desktop\záloha\PojisteniApp\PojisteniApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Conn/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ublxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Conn/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ublxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Conn/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ublxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Conn/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ublxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Conn/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ublxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojistenec/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5lY1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojistenec/CreateNewPojisteni.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5lY1xDcmVhdGVOZXdQb2ppc3RlbmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojistenec/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5lY1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojistenec/DeletePojisteni.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5lY1xEZWxldGVQb2ppc3RlbmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojistenec/DetailPojisteni.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5lY1xEZXRhaWxQb2ppc3RlbmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojistenec/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5lY1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojistenec/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5lY1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojistenec/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5lY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojisteni/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5pXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojisteni/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5pXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojisteni/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5pXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojisteni/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5pXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Pojisteni/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9qaXN0ZW5pXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/plexm/Desktop/záloha/PojisteniApp/PojisteniApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m9iqexl2c6

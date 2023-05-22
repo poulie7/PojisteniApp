@@ -1,0 +1,111 @@
+﻿@model PojisteniApp.Models.PojisteniDetails
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <h4>Pojistenec @Html.DisplayFor(model => model.Pojistenec.Name) @Html.DisplayFor(model => model.Pojistenec.LastName) </h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pojistenec.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pojistenec.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pojistenec.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pojistenec.LastName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pojistenec.Adress)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pojistenec.Adress)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pojistenec.City)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pojistenec.City)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pojistenec.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pojistenec.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pojistenec.Phone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pojistenec.Phone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pojistenec.PSC)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pojistenec.PSC)
+        </dd>
+
+      
+        @if (Model.Pojisteni != null && Model.Pojisteni.Count > 0)
+        {
+
+            <table class="table table-bordered table-sm">
+                <thead>
+                    <tr>
+                       
+                        <th scope="col">Pojištění</th>
+                        <th scope="col">Částka</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var pojisteni in Model.Pojisteni)
+                    {
+                        <tr>
+                            <td>@pojisteni.Type</td>
+                            <td>@pojisteni.Price</td>
+                            <td>
+                                <div class="row justify-content-start">
+                                    <div class="col-3 m-1">
+
+                                        <form asp-action="DeletePojisteni" asp-route-PojistenecId="@Model?.Pojistenec.Id" asp-route-PojisteniId ="@pojisteni.Id">
+                                            <input type="hidden">
+                                            <input type="submit" value="Smaž" class="btn btn-danger btn-sm" />
+                                        </form>
+
+                                    </div>
+                                 <div class="col-3 m-1">
+                                        <a asp-action="DetailPojisteni" asp-route-id="@pojisteni.Id" class="btn btn-primary btn-sm">Detail pojištění</a>
+                                    </div>
+                                </div>
+                            </td>
+ 
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No insurance found.</p>
+        }
+    </dl>
+
+    <div class="text-center">
+        <a asp-action="CreateNewPojisteni" asp-route-id="@Model?.Pojistenec?.Id" class="btn btn-primary">Vytvořit nové pojištění</a>
+    </div>
+
+
+</div>
+
+  
+
+
+<p>
+    <a asp-action="Index">Zpět na seznam</a>
+</p>
